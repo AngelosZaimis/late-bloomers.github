@@ -590,7 +590,7 @@ h2 span {
     color: white;
 }
 .nav-scroll .navbar-nav .nav-link {
-    color: #fff;
+    color: #777474
 }
 .nav-scroll .navbar-nav .active {
     color: white !important;
@@ -1179,7 +1179,8 @@ h2 span {
     -webkit-transition: all .4s;
     transition: all .4s;
 }
-.team .item .team-img .img:hover{
+.team .item .team-img:hover .img{
+  
     opacity: 0.4;
 }
 .team .item .infos {
@@ -2176,13 +2177,13 @@ button.mfp-arrow {
   content: '\e648';
   text-align: center;
   line-height: 44px;
-  font-size: 13px;
+  font-size: 0px;
   font-weight: 900;
   
   left: 0;
   top: 0;
   height: 40px;
-  width: 36px;
+  width: 40px;
   cursor: pointer;
   display: block;
   background-image: url('/img/aray.png');

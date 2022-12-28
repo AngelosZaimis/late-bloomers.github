@@ -348,3 +348,30 @@ Pace.on('done', function() {
     });
     
 
+
+    const hide = document.querySelector('.hide');
+    const hideTwo = document.querySelector('.hidetwo');
+    const hideThree = document.querySelector('.hidethree');
+    const tab3 = document.querySelector('.tab-3-content');
+    const tab6 = document.querySelector('.tab-6-content');
+    const tab7 = document.querySelector('.tab-7-content');
+    hide.style.display = 'none'
+    hideTwo.style.display = 'none'
+    hideThree.style.display = 'none'
+
+    tab3.addEventListener('click', () => {
+        hide.style.display = 'block'
+       
+    })
+    
+    tab6.addEventListener('click', () => {
+        hideTwo.style.display = 'block'
+       
+    })
+
+    tab7.addEventListener('click', () => {
+        hideThree.style.display = 'block'
+       
+    })
+
+   
