@@ -1967,7 +1967,10 @@ button.mfp-arrow {
     background: #1b1b1b;
     color: #fff;
     border-color: #1b1b1b;
-}
+}   
+ .post-img .img .img-in {
+    height: 280px;
+ }
 
 
 /* ======= Post style ======= */
@@ -2438,6 +2441,11 @@ button.mfp-arrow {
     .bg-img-fixed {
         background-attachment: initial;
     }
+
+    .post-img .img .img-in {
+ 
+        height: 168px;
+    }
 }
 @media screen and (max-width: 767px) {
     .line-one {
@@ -2469,6 +2477,9 @@ button.mfp-arrow {
     .menus .tabs-icon .item h6{
         font-size: 20px;
     }
+    .post-img .img .img-in {
+        height: 408px;
+    }
 }
 @media screen and (max-width: 480px) {
     .section-head h4 {
@@ -2488,6 +2499,10 @@ button.mfp-arrow {
     }
     .menus .tabs-icon .item h6{
         font-size: 17px;
+    }
+    .post-img .img .img-in {
+        height: 264px;
+        width: 264px;
     }
 }
 
