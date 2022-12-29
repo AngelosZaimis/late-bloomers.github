@@ -2147,6 +2147,7 @@ button.mfp-arrow {
 }
 
 
+
 /* ======= Progress scroll totop button ======= */
 .progress-wrap {
   position: fixed;
@@ -2465,6 +2466,9 @@ button.mfp-arrow {
     .portfolio .filtering span {
         margin-bottom: 10px;
     }
+    .menus .tabs-icon .item h6{
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 480px) {
     .section-head h4 {
@@ -2479,4 +2483,12 @@ button.mfp-arrow {
     .text-right {
         text-align: center;
     }
+    .small{
+        font-size: 17px;
+    }
+    .menus .tabs-icon .item h6{
+        font-size: 17px;
+    }
 }
+
+
