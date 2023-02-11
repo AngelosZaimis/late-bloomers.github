@@ -368,7 +368,7 @@ input[type="checkbox"] {
     transition: opacity 0.5s ease-in-out;
 }
 .paragraph-cocktails{
-    color: #454242;
+    color: white;
     transition: color 0.5s ease-in-out;
     font-size: 25px;
 }
